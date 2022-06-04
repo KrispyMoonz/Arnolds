@@ -1,0 +1,140 @@
+<!-- alt shift down to duplicate code -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6ZK76S541"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C6ZK76S541');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/arnoldicon.ico">
+    <link rel="stylesheet" href="./css/html5reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Rooms</title>
+</head>
+
+<body>
+    <a class="skip" href="#skip">Skip to Main Content</a>
+    <header>
+        <nav aria-label="navigation">
+            <ul class="nav_links">
+                <li><a href="index.html">Sunset Arms</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a class="active" href="rooms.html">Rooms</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container" id="skip" tabindex="0">
+        <div class='parallax'></div>
+        <div class='rooms'>
+            <h1>Boarding Information</h1>
+            <p> Wanna become a tenant? Check availability! <br>
+                If there are rooms available, you can fill out the form for additional information. We look forward to
+                serving you and giving you
+                a unique one of a kind experience!
+            </p>
+        </div>
+        <table class='table'>
+            <thead>
+                <tr>
+                    <th scope="col">Room</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Availabile</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td># 1</td>
+                    <td>Phil & Gertie</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td># 2</td>
+                    <td>N/A</td>
+                    <td>Yes<br>[2 bedrooms]</td>
+                </tr>
+                <tr>
+                    <td># 3</td>
+                    <td>Mr. Hyunh</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td># 4</td>
+                    <td>N/A</td>
+                    <td>Yes<br>[1 bedroom]</td>
+                </tr>
+                <tr>
+                    <td># 5</td>
+                    <td>Oskar & Suzie Kokoshka</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td># 6</td>
+                    <td>N/A</td>
+                    <td>Yes<br> [1 bedroom]</td>
+                </tr>
+                <tr>
+                    <td># 7</td>
+                    <td>Ernie Potts</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class='form'>
+            <form class='control' action="https://formspree.io/f/mvodjjll" method="post">
+                <fieldset>
+                    <legend>Interest Form</legend>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="First Name" aria-required="true" placeholder="Arnold"
+                        required>
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="Last Name" aria-required="true" placeholder="Shortman"
+                        required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="Email" aria-required="true" placeholder="heyarnold@example.com"
+                        required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" aria-required="true" placeholder="123-456-7890" required>
+                    <div><span>FORMAT: 123-456-7896</span></div>
+
+                    <label for="message">Leave A Message!</label>
+                    <i class="fas fa-comments"></i>
+                    <textarea name="Message" id="message" aria-required="false"></textarea>
+
+                    <input type="submit" id="submit" value="SUBMIT">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer id="end" tabindex="0">
+        <img src="./images/arnold-logo.png" alt="Hey Arnold Logo" id="foot">
+        <nav>
+            <ul class="foot_links">
+                <li>
+                    <p>&#127968; Address: 4040 Vine Street Hillwood, WA</p>
+                </li>
+                <li>
+                    <p>&#9993; Email: SunsetArms@heyarnold.test</p>
+                </li>
+                <li>
+                    <p>&#9742; Phone: (253) 439-2762</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://kit.fontawesome.com/cb7ea12c0f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
